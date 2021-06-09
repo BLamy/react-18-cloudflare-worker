@@ -1,0 +1,9 @@
+name = "webapp"
+type = 'webpack'
+account_id = '094b26406b838336e66b45b90e56ad91'
+route = 'brettlamy.com'
+zone_id = ''
+usage_model = ''
+workers_dev = true
+target_type = "webpack"
+site = {bucket = "./build",entry-point = "server"}

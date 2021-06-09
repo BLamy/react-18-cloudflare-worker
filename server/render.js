@@ -31,10 +31,7 @@ module.exports = function render(url, res) {
   //   )
   // );
 
-  // The new wiring is a bit more involved.
-  res.socket.on('error', error => {
-    console.error('Fatal', error);
-  });
+  // The new wiring is a bit more involved
   let didError = false;
   const data = createServerData();
   const {startWriting, abort} = pipeToNodeWritable(
